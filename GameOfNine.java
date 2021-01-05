@@ -192,7 +192,7 @@ public class GameOfNine extends JPanel {
       g.setColor(getForeground());
       g.fillRoundRect(x, y, tileSize, tileSize, 25, 25);
       g.setColor(Color.BLACK);
-      g.drawRoundRect(x, y, tileSize, tileSize, 25, 25);
+      g.drawRoundRect(x, y, tildeSize, tileSize, 25, 25);
       g.setColor(Color.WHITE);
       
       drawCenteredString(g, String.valueOf(tiles[i]), x , y);
